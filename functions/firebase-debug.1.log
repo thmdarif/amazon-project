@@ -1,0 +1,135 @@
+[debug] [2023-03-14T03:18:56.197Z] ----------------------------------------------------------------------
+[debug] [2023-03-14T03:18:56.202Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ELCOT\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2023-03-14T03:18:56.204Z] CLI Version:   11.24.1
+[debug] [2023-03-14T03:18:56.204Z] Platform:      win32
+[debug] [2023-03-14T03:18:56.204Z] Node Version:  v16.16.0
+[debug] [2023-03-14T03:18:56.205Z] Time:          Tue Mar 14 2023 08:48:56 GMT+0530 (India Standard Time)
+[debug] [2023-03-14T03:18:56.206Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-03-14T03:18:56.459Z] Field ".emulators.auth.port" in "firebase.json" is possibly invalid: should be number
+[debug] [2023-03-14T03:18:56.475Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-03-14T03:18:56.476Z] > authorizing via signed-in user (thmohammedarif@gmail.com)
+[debug] [2023-03-14T03:18:58.938Z] java version "18.0.1" 2022-04-19
+
+[debug] [2023-03-14T03:18:58.940Z] Java(TM) SE Runtime Environment (build 18.0.1+10-24)
+Java HotSpot(TM) 64-Bit Server VM (build 18.0.1+10-24, mixed mode, sharing)
+
+[debug] [2023-03-14T03:18:58.988Z] Parsed Java major version: 18
+[info] i  emulators: Starting emulators: auth, functions, firestore {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: auth, functions, firestore"}}
+[debug] [2023-03-14T03:18:59.039Z] [auth] Authentication Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-03-14T03:18:59.041Z] [firestore] Firestore Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-03-14T03:18:59.041Z] [firestore.websocket] websocket server for firestore only supports listening on one address (127.0.0.1). Not listening on ::1
+[warn] !  hub: emulator hub unable to start on port 4400, starting on 4401 instead. {"metadata":{"emulator":{"name":"hub"},"message":"emulator hub unable to start on port 4400, starting on 4401 instead."}}
+[warn] !  logging: Logging Emulator unable to start on port 4500, starting on 4501 instead. {"metadata":{"emulator":{"name":"logging"},"message":"Logging Emulator unable to start on port 4500, starting on 4501 instead."}}
+[debug] [2023-03-14T03:18:59.059Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[warn] !  ui: Emulator UI unable to start on port 4000, starting on 4002 instead. {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI unable to start on port 4000, starting on 4002 instead."}}
+[debug] [2023-03-14T03:18:59.073Z] assigned listening specs for emulators {"user":{"auth":[{"address":"127.0.0.1","family":"IPv4","port":4001}],"firestore":[{"address":"127.0.0.1","family":"IPv4","port":5000}],"firestore.websocket":[{"address":"127.0.0.1","family":"IPv4","port":9150}],"hub":[{"address":"127.0.0.1","family":"IPv4","port":4401},{"address":"::1","family":"IPv6","port":4401}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4501}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4002},{"address":"::1","family":"IPv6","port":4002}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[debug] [2023-03-14T03:18:59.109Z] [hub] writing locator at C:\Users\ELCOT\AppData\Local\Temp\hub-clone-fb685.json
+[warn] !  functions: Functions Emulator unable to start on port 4001, starting on 4003 instead. {"metadata":{"emulator":{"name":"functions"},"message":"Functions Emulator unable to start on port 4001, starting on 4003 instead."}}
+[debug] [2023-03-14T03:18:59.146Z] [functions] Functions Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[warn] !  eventarc: Eventarc Emulator unable to start on port 9299, starting on 9300 instead. {"metadata":{"emulator":{"name":"eventarc"},"message":"Eventarc Emulator unable to start on port 9299, starting on 9300 instead."}}
+[debug] [2023-03-14T03:18:59.156Z] [eventarc] Eventarc Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-03-14T03:18:59.156Z] late-assigned ports for functions and eventarc emulators {"user":{"auth":[{"address":"127.0.0.1","family":"IPv4","port":4001}],"firestore":[{"address":"127.0.0.1","family":"IPv4","port":5000}],"firestore.websocket":[{"address":"127.0.0.1","family":"IPv4","port":9150}],"hub":[{"address":"127.0.0.1","family":"IPv4","port":4401},{"address":"::1","family":"IPv6","port":4401}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4501}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4002},{"address":"::1","family":"IPv6","port":4002}],"functions":[{"address":"127.0.0.1","family":"IPv4","port":4003}],"eventarc":[{"address":"127.0.0.1","family":"IPv4","port":9300}]},"metadata":{"message":"late-assigned ports for functions and eventarc emulators"}}
+[warn] !  functions: The following emulators are not running, calls to these services from the Functions emulator will affect production: database, hosting, pubsub, storage {"metadata":{"emulator":{"name":"functions"},"message":"The following emulators are not running, calls to these services from the Functions emulator will affect production: \u001b[1mdatabase, hosting, pubsub, storage\u001b[22m"}}
+[debug] [2023-03-14T03:18:59.213Z] defaultcredentials: writing to file C:\Users\ELCOT\AppData\Roaming\firebase\thmohammedarif_gmail_com_application_default_credentials.json
+[debug] [2023-03-14T03:18:59.226Z] Setting GAC to C:\Users\ELCOT\AppData\Roaming\firebase\thmohammedarif_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to C:\\Users\\ELCOT\\AppData\\Roaming\\firebase\\thmohammedarif_gmail_com_application_default_credentials.json"}}
+[debug] [2023-03-14T03:18:59.229Z] > refreshing access token with scopes: []
+[debug] [2023-03-14T03:18:59.239Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2023-03-14T03:18:59.239Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-03-14T03:18:59.617Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2023-03-14T03:18:59.617Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-03-14T03:18:59.727Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/clone-fb685/adminSdkConfig [none]
+[debug] [2023-03-14T03:19:00.281Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/clone-fb685/adminSdkConfig 200
+[debug] [2023-03-14T03:19:00.282Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/clone-fb685/adminSdkConfig {"projectId":"clone-fb685","storageBucket":"clone-fb685.appspot.com"}
+[warn] !  firestore: Cloud Firestore rules file C:\Users\ELCOT\Desktop\amazon-project\amazon-clone\firestore.rules specified in firebase.json does not exist. {"metadata":{"emulator":{"name":"firestore"},"message":"Cloud Firestore rules file \u001b[1mC:\\Users\\ELCOT\\Desktop\\amazon-project\\amazon-clone\\firestore.rules\u001b[22m specified in firebase.json does not exist."}}
+[warn] !  firestore: The emulator will default to allowing all reads and writes. Learn more about this option: https://firebase.google.com/docs/emulator-suite/install_and_configure#security_rules_configuration. {"metadata":{"emulator":{"name":"firestore"},"message":"The emulator will default to allowing all reads and writes. Learn more about this option: https://firebase.google.com/docs/emulator-suite/install_and_configure#security_rules_configuration."}}
+[debug] [2023-03-14T03:19:00.452Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"firestore"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2023-03-14T03:19:00.456Z] Ignoring unsupported arg: single_project_mode_error {"metadata":{"emulator":{"name":"firestore"},"message":"Ignoring unsupported arg: single_project_mode_error"}}
+[debug] [2023-03-14T03:19:00.457Z] Starting Firestore Emulator with command {"binary":"java","args":["-Dgoogle.cloud_firestore.debug_log_level=FINE","-Duser.language=en","-jar","C:\\Users\\ELCOT\\.cache\\firebase\\emulators\\cloud-firestore-emulator-v1.16.0.jar","--host","127.0.0.1","--port",5000,"--websocket_port",9150,"--project_id","clone-fb685","--single_project_mode",true,"--functions_emulator","127.0.0.1:4003"],"optionalArgs":["port","webchannel_port","host","rules","websocket_port","functions_emulator","seed_from_export","project_id","single_project_mode"],"joinArgs":false} {"metadata":{"emulator":{"name":"firestore"},"message":"Starting Firestore Emulator with command {\"binary\":\"java\",\"args\":[\"-Dgoogle.cloud_firestore.debug_log_level=FINE\",\"-Duser.language=en\",\"-jar\",\"C:\\\\Users\\\\ELCOT\\\\.cache\\\\firebase\\\\emulators\\\\cloud-firestore-emulator-v1.16.0.jar\",\"--host\",\"127.0.0.1\",\"--port\",5000,\"--websocket_port\",9150,\"--project_id\",\"clone-fb685\",\"--single_project_mode\",true,\"--functions_emulator\",\"127.0.0.1:4003\"],\"optionalArgs\":[\"port\",\"webchannel_port\",\"host\",\"rules\",\"websocket_port\",\"functions_emulator\",\"seed_from_export\",\"project_id\",\"single_project_mode\"],\"joinArgs\":false}"}}
+[info] i  firestore: Firestore Emulator logging to firestore-debug.log {"metadata":{"emulator":{"name":"firestore"},"message":"Firestore Emulator logging to \u001b[1mfirestore-debug.log\u001b[22m"}}
+[info] +  firestore: Firestore Emulator UI websocket is running on 9150. {"metadata":{"emulator":{"name":"firestore"},"message":"Firestore Emulator UI websocket is running on 9150."}}
+[debug] [2023-03-14T03:19:36.926Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2023-03-14T03:19:36.928Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2023-03-14T03:19:36.929Z] Starting Emulator UI with command {"binary":"node","args":["C:\\Users\\ELCOT\\.cache\\firebase\\emulators\\ui-v1.11.4\\server\\server.js"],"optionalArgs":[],"joinArgs":false} {"metadata":{"emulator":{"name":"ui"},"message":"Starting Emulator UI with command {\"binary\":\"node\",\"args\":[\"C:\\\\Users\\\\ELCOT\\\\.cache\\\\firebase\\\\emulators\\\\ui-v1.11.4\\\\server\\\\server.js\"],\"optionalArgs\":[],\"joinArgs\":false}"}}
+[info] i  ui: Emulator UI logging to ui-debug.log {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI logging to \u001b[1mui-debug.log\u001b[22m"}}
+[debug] [2023-03-14T03:19:37.347Z] Web / API server started at 127.0.0.1:4002
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at 127.0.0.1:4002\n"}}
+[debug] [2023-03-14T03:19:37.348Z] Web / API server started at ::1:4002
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at ::1:4002\n"}}
+[info] i  functions: Watching "C:\Users\ELCOT\Desktop\amazon-project\amazon-clone\functions" for Cloud Functions... {"metadata":{"emulator":{"name":"functions"},"message":"Watching \"C:\\Users\\ELCOT\\Desktop\\amazon-project\\amazon-clone\\functions\" for Cloud Functions..."}}
+[debug] [2023-03-14T03:19:37.545Z] Validating nodejs source
+[debug] [2023-03-14T03:19:43.631Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "firebase-admin": "^11.5.0",
+    "firebase-functions": "^4.2.0",
+    "stripe": "^11.14.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.0.0"
+  },
+  "private": true
+}
+[debug] [2023-03-14T03:19:43.632Z] Building nodejs source
+[debug] [2023-03-14T03:19:43.634Z] Failed to find version of module node: reached end of search path C:\Users\ELCOT\Desktop\amazon-project\amazon-clone\functions\node_modules
+[info] +  functions: Using node@16 from host. 
+[debug] [2023-03-14T03:19:43.645Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-03-14T03:19:43.741Z] Found firebase-functions binary at 'C:\Users\ELCOT\Desktop\amazon-project\amazon-clone\functions\node_modules\.bin\firebase-functions'
+[debug] [2023-03-14T03:19:48.247Z] Serving at port 8770
+
+[debug] [2023-03-14T03:19:55.508Z] Got response from /__/functions.yaml {"endpoints":{"api":{"platform":"gcfv1","availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"serviceAccountEmail":null,"vpc":null,"httpsTrigger":{},"entryPoint":"api"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[debug] [2023-03-14T03:19:55.528Z] shutdown requested via /__/quitquitquit
+
+[info] +  functions: Loaded functions definitions from source: api. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: api."}}
+[info] +  functions[us-central1-api]: http function initialized (http://127.0.0.1:4003/clone-fb685/us-central1/api). {"metadata":{"emulator":{"name":"functions"},"message":"\u001b[1mhttp\u001b[22m function initialized (http://127.0.0.1:4003/clone-fb685/us-central1/api)."}}
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+│ i  View Emulator UI at http://127.0.0.1:4002/               │
+└─────────────────────────────────────────────────────────────┘
+
+┌────────────────┬────────────────┬─────────────────────────────────┐
+│ Emulator       │ Host:Port      │ View in Emulator UI             │
+├────────────────┼────────────────┼─────────────────────────────────┤
+│ Authentication │ 127.0.0.1:4001 │ http://127.0.0.1:4002/auth      │
+├────────────────┼────────────────┼─────────────────────────────────┤
+│ Functions      │ 127.0.0.1:4003 │ http://127.0.0.1:4002/functions │
+├────────────────┼────────────────┼─────────────────────────────────┤
+│ Firestore      │ 127.0.0.1:5000 │ http://127.0.0.1:4002/firestore │
+└────────────────┴────────────────┴─────────────────────────────────┘
+  Emulator Hub running at 127.0.0.1:4401
+  Other reserved ports: 4501, 9150
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
+[debug] [2023-03-14T03:21:02.463Z] [work-queue] {"queuedWork":["/clone-fb685/us-central1/api/payments/create-2023-03-14T03:21:02.462Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2023-03-14T03:21:02.464Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/clone-fb685/us-central1/api/payments/create-2023-03-14T03:21:02.462Z"],"workRunningCount":1}
+[debug] [2023-03-14T03:21:02.466Z] Accepted request POST /clone-fb685/us-central1/api/payments/create?total=2000 --> us-central1-api
+[debug] [2023-03-14T03:21:02.512Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2023-03-14T03:21:02.519Z] [functions] Got req.url=/clone-fb685/us-central1/api/payments/create?total=2000, mapping to path=/payments/create?total=2000 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/clone-fb685/us-central1/api/payments/create?total=2000, mapping to path=/payments/create?total=2000"}}
+[debug] [2023-03-14T03:21:02.864Z] [worker-pool] addWorker(us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] addWorker(us-central1-api)"}}
+[debug] [2023-03-14T03:21:02.866Z] [worker-pool] Adding worker with key us-central1-api, total=1 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Adding worker with key us-central1-api, total=1"}}
+[debug] [2023-03-14T03:21:02.876Z] [work-queue] {"queuedWork":["/clone-fb685/us-central1/api/payments/create-2023-03-14T03:21:02.876Z"],"queueLength":1,"runningWork":["/clone-fb685/us-central1/api/payments/create-2023-03-14T03:21:02.462Z"],"workRunningCount":1}
+[debug] [2023-03-14T03:21:02.878Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/clone-fb685/us-central1/api/payments/create-2023-03-14T03:21:02.462Z","/clone-fb685/us-central1/api/payments/create-2023-03-14T03:21:02.876Z"],"workRunningCount":2}
+[debug] [2023-03-14T03:21:02.878Z] Accepted request POST /clone-fb685/us-central1/api/payments/create?total=2000 --> us-central1-api
+[debug] [2023-03-14T03:21:02.887Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2023-03-14T03:21:02.888Z] [functions] Got req.url=/clone-fb685/us-central1/api/payments/create?total=2000, mapping to path=/payments/create?total=2000 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/clone-fb685/us-central1/api/payments/create?total=2000, mapping to path=/payments/create?total=2000"}}
+[debug] [2023-03-14T03:21:03.148Z] [worker-pool] addWorker(us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] addWorker(us-central1-api)"}}
+[debug] [2023-03-14T03:21:03.150Z] [worker-pool] Adding worker with key us-central1-api, total=2 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Adding worker with key us-central1-api, total=2"}}
+[error] !!  functions: Failed to handle request for function us-central1-api {"metadata":{"emulator":{"name":"functions"},"message":"Failed to handle request for function us-central1-api"}}
